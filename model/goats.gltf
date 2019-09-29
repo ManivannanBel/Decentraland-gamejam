@@ -1,0 +1,268 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v0.9.36",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "extras" : {
+                "glTF2ExportSettings" : {
+                    "export_all_influences" : 1,
+                    "export_apply" : 1,
+                    "export_current_frame" : 1,
+                    "export_extras" : 1,
+                    "export_format" : "GLTF_SEPARATE",
+                    "export_morph_tangent" : 1,
+                    "export_selected" : 1,
+                    "export_tangents" : 1
+                }
+            },
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "goats",
+            "rotation" : [
+                0.6997818946838379,
+                0.1015155240893364,
+                -0.10151553899049759,
+                0.6997817754745483
+            ],
+            "scale" : [
+                0.0006964451749809086,
+                0.0006964452913962305,
+                0.0006964452913962305
+            ],
+            "translation" : [
+                -0.34739750623703003,
+                0.05464572459459305,
+                -3.1113827228546143
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "lambert5SG",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9699476361274719
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Goat_mat",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.5,
+                    0.5,
+                    0.5,
+                    1
+                ],
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9699476361274719
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "buffer-0-mesh-0.023",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TANGENT" : 2,
+                        "TEXCOORD_0" : 3
+                    },
+                    "indices" : 4,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 5,
+                        "NORMAL" : 6,
+                        "TANGENT" : 7,
+                        "TEXCOORD_0" : 8
+                    },
+                    "indices" : 9,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        },
+        {
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "Tex_Goat",
+            "uri" : "Tex_Goat.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "Goat_BaseColor",
+            "uri" : "Goat_BaseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 14928,
+            "max" : [
+                873.3951416015625,
+                3226.6572265625,
+                79.45772552490234
+            ],
+            "min" : [
+                -1816.739501953125,
+                -228.02520751953125,
+                -107.86832427978516
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 14928,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 14928,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5126,
+            "count" : 14928,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5123,
+            "count" : 14928,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 22992,
+            "max" : [
+                -184.06185913085938,
+                6992.630859375,
+                78.46369934082031
+            ],
+            "min" : [
+                -2545.001953125,
+                240.20254516601562,
+                -171.8748016357422
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 22992,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5126,
+            "count" : 22992,
+            "type" : "VEC4"
+        },
+        {
+            "bufferView" : 8,
+            "componentType" : 5126,
+            "count" : 22992,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 9,
+            "componentType" : 5123,
+            "count" : 22992,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 179136,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 179136,
+            "byteOffset" : 179136
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 238848,
+            "byteOffset" : 358272
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 119424,
+            "byteOffset" : 597120
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 29856,
+            "byteOffset" : 716544
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 275904,
+            "byteOffset" : 746400
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 275904,
+            "byteOffset" : 1022304
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 367872,
+            "byteOffset" : 1298208
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 183936,
+            "byteOffset" : 1666080
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 45984,
+            "byteOffset" : 1850016
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1896000,
+            "uri" : "goats.bin"
+        }
+    ]
+}
